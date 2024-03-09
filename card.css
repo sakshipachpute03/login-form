@@ -1,0 +1,33 @@
+.main{
+    height: 220px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: brown;
+    margin: 20px;
+
+    flex-direction: row;
+}
+.img{
+    border-radius: 50%;
+     display: block;
+    margin: 30px auto;
+    
+}
+.icon{
+    padding: 10px 150px;
+    margin: 5px 180;
+}
+.name{
+    
+    font-size: 12px;
+    text-align: left;
+    color: black;
+    margin-left: 5px;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
